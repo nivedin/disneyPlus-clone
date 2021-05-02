@@ -8,16 +8,16 @@ function Viewers() {
         <img src="/images/viewers-disney.png" alt="view-img" />
       </Wrap>
       <Wrap>
-        <img src="/images/viewers-disney.png" alt="view-img" />
+        <img src="/images/viewers-pixar.png" alt="view-img" />
       </Wrap>
       <Wrap>
-        <img src="/images/viewers-disney.png" alt="view-img" />
+        <img src="/images/viewers-marvel.png" alt="view-img" />
       </Wrap>
       <Wrap>
-        <img src="/images/viewers-disney.png" alt="view-img" />
+        <img src="/images/viewers-starwars.png" alt="view-img" />
       </Wrap>
       <Wrap>
-        <img src="/images/viewers-disney.png" alt="view-img" />
+        <img src="/images/viewers-national.png" alt="view-img" />
       </Wrap>
     </Container>
   );
