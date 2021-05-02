@@ -48,6 +48,7 @@ const Nav = styled.nav`
   align-items: center;
   justify-content: space-between;
   padding: 0 35px;
+  overflow-x: hidden;
 `;
 const Logo = styled.img`
   width: 80px;
@@ -73,22 +74,21 @@ const NavMenu = styled.div`
       &:after {
         content: "";
         height: 2px;
-        width: 100%;
+        width: 0;
         background: #fff;
         position: absolute;
         bottom: -6px;
         left: 0;
-        transform: scaleX(0);
         opacity: 0;
-        transition: all 0.2s cubic-bezier(0.25, 0.46, 0.45, 0.94) 0s;
-        transform-origin: left center;
+        transition: all 0.25s cubic-bezier(0.25, 0.46, 0.45, 0.94) 0s;
       }
     }
     &:hover {
       span:after {
-        transform: scaleX(1);
+        width: 100%;
         opacity: 1;
-        transform-origin: center right;
+        right: 0;
+        left: auto;
       }
     }
   }
